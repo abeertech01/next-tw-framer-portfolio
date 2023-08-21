@@ -1,3 +1,4 @@
+// icons
 import {
   RxCrop,
   RxPencil2,
