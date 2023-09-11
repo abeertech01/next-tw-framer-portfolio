@@ -1,21 +1,21 @@
 // import React, { useState } from "react"
 
 // // icons
-// import {
-//   FaHtml5,
-//   FaCss3,
-//   FaJs,
-//   FaReact,
-//   FaWordpress,
-//   FaFigma,
-// } from "react-icons/fa"
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaWordpress,
+  FaFigma,
+} from "react-icons/fa"
 
-// import {
-//   SiNextdotjs,
-//   SiFramer,
-//   SiAdobexd,
-//   SiAdobephotoshop,
-// } from "react-icons/si"
+import {
+  SiNextdotjs,
+  SiFramer,
+  SiAdobexd,
+  SiAdobephotoshop,
+} from "react-icons/si"
 
 // //  data
 const aboutData = [
@@ -101,7 +101,7 @@ import { fadeIn } from "../../variants"
 import CountUp from "react-countup"
 
 const About = () => {
-  //   const [index, setIndex] = useState(0)
+  const [index, setIndex] = useState(0)
   //   console.log(index)
   return (
     // <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
