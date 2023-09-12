@@ -197,7 +197,7 @@ const About = () => {
     //   className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
     // >
     <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-      {aboutData.map((item, itemIndex) => (
+      {/* {aboutData.map((item, itemIndex) => (
         <div
           key={itemIndex}
           className={`${
@@ -208,7 +208,7 @@ const About = () => {
         >
           {item.title}
         </div>
-      ))}
+      ))} */}
     </div>
     // <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
     //   {aboutData[index].info.map((item, itemIndex) => (
